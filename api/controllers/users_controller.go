@@ -54,7 +54,10 @@ func (server *Server) GetUsers(w http.ResponseWriter, r *http.Request) {
 	if err != nil {
 		responses.ERROR(w, http.StatusInternalServerError, err)
 		return
-	}
+	} 
+
+	// mapmap := models.ResMap(http.StatusOK, "Irfan", user)
+
 	responses.JSON(w, http.StatusOK, users)
 }
 

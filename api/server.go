@@ -19,6 +19,7 @@ func init() {
 	}
 }
 
+// https://superuser.com/a/1506731
 func Run() {
 
 	var err error
@@ -33,6 +34,6 @@ func Run() {
 
 	seed.Load(server.DB)
 
-	server.Run(":8080")
+	server.Run(":1234")
 
 }

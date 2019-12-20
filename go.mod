@@ -17,6 +17,7 @@ require (
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/satori/go.uuid v1.2.0
 	github.com/stretchr/testify v1.3.0
+	github.com/victorsteven/golang-fullstack-apllication-with-jwt-authentication v0.0.0-20190806151623-2c1864faec5a
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
 	gopkg.in/go-playground/assert.v1 v1.2.1
 )
